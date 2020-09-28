@@ -1,0 +1,196 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.Header{
+    background-color: rgb(12,41,51);
+    background-blend-mode: overlay;
+    position: sticky;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Nav-kiri{
+    color: white;
+    width: 50%;
+    font-size: 25px;
+    padding: 5px;
+
+}
+
+.Nav-kanan > a{
+    background-color: rgb(12,41,51);
+    color: white;
+    margin: 1,5cm;
+    padding: 20px;
+} 
+
+.Nav-kanan > a:hover{
+    color: pink;
+
+}
+.grass{
+    height: 180px;
+    width: 100%;
+}
+
+.lawn{
+    margin-top: 1cm;
+    color: rgb(67, 19,31);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.definision{
+    text-align: center;
+    color: black;
+    margin-left: 7cm;
+    margin-right: 7cm; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.upline{
+    margin-top: 2.5cm;
+    margin-left: 14.9cm;
+    margin-right: 14.9cm;
+    border-style: double;
+}
+.services{
+    color: rgb(67, 19,31);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.underline{
+    margin-left: 14.9cm;
+    margin-right: 14.9cm;
+    border-style: double;
+}
+
+.leaf{
+    margin-top: 1.9cm;
+    width:100%;
+    height: 180px;
+}
+
+.close{
+    background-color: white;
+    position: sticky;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 4cm;
+}
+.leftside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-top: 0.5cm;
+}
+
+.rightside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1cm;
+    margin-left: 1cm;
+    margin-top: 0.5cm;
+}
+
+.spring{
+    text-align: center;
+    color:rgb(67, 19,31);
+    margin-left: 4cm;
+    margin-right: 4cm; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flower{
+    text-align: center;
+    color: rgb(67, 19,31);
+    margin-right: 4cm;
+    margin-left: 4cm;
+}
+
+.definitionspring{
+    text-align: center;
+    color:black;
+    margin-left: 2cm;
+    margin-right: 2.5cm; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.definitionflower{
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2cm;
+    margin-left: 2.5cm;
+    margin-top: 0cm;
+}
+#pile{
+    width: 100%;
+    height: 100%;
+    margin-right: 2cm;
+}
+
+
+#fresh{
+    width: 100%;
+    height: 100%;
+    margin-right: -2cm;
+}
+
+
+.footer{
+    background-color: rgb(12,41,51);
+    position: sticky;
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    margin-top: 3.5cm;
+    flex-direction: column;
+    padding: 0cm;
+}
+
+.socialmedia{
+    display: flex;
+    margin-bottom: -0.5cm;
+}
+
+.powered{
+    display: flex;
+    color: white;
+}
